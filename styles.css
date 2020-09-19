@@ -1,0 +1,88 @@
+body {
+  margin-top: 5%;
+  background-image: url("images/background.png");
+  text-align: center;
+}
+p {
+  font-size: 70px;
+  text-align: center;
+  color: blue;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+.Row1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.Row {
+  padding-left: 20px;
+
+  padding-right: 20px;
+  text-align: center;
+}
+.Row2 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-right: 20px;
+}
+.container {
+  background-color: white;
+  display: inline-table;
+  border-radius: 10px;
+  
+}
+
+.Card {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.Card:hover {
+  box-shadow: inset 0px 0px 0px 1px green;
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.cyan {
+  background-color: cyan;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.color-hide {
+  background-color: #eee;
+}
+
+.clicked {
+  pointer-events: none;
+}
